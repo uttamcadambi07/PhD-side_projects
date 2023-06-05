@@ -1,0 +1,25 @@
+Author: Uttam Cadambi Padmanaban
+Date: 05/06/2023
+
+This is the case of laminar flow past a cylinder with Re_D = U_D D/\nu = 150.
+
+U_D = 1
+D = 1
+\nu = 6.67e-03
+
+dt = 1e-03
+
+Passive scalar T added.
+
+Inlet BC:
+U: 
+Inlet: fixedValue (1,0,0)
+Outlet: zeroGradient
+
+p:
+Inlet: zeroGradient
+Outlet: fixedValue 0
+
+T:
+Inlet: fixedValue 1
+Outlet: zeroGradient
